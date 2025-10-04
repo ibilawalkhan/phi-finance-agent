@@ -33,4 +33,7 @@ agent_team = Agent(
     markdown=True
 )
 
-agent_team.print_response("Summarize analyst recommendations and share the latest news for NVDA", stream=True)
+# agent_team.print_response("Summarize analyst recommendations and share the latest news for NVDA", stream=True)
+# agent_team.print_response("Who are the current executives of Google and what is the latest news about them?", stream=True)
+agent_team.print_response("Compare AAPL and MSFT stock fundamentals in a table", stream=True)
+
